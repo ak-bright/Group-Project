@@ -1,7 +1,8 @@
 # Group-Project
 
-**This project is a landing page for a hospital.
-#** Features
+##### **This project is a landing page for a hospital.**
+
+# Features
 - Responsive design
 - Navigation bar with links to different sections
 - Hero section with a call to action
