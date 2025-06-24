@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hospital Name - Healthcare You Can Trust</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="placeholder-logo.png" alt="Hospital Logo" class="logo-img">
+                <h1>Hospital Name</h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#doctors">Doctors</a></li>
+                    <li><a href="#appointments">Appointments</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-contact">
+                <span class="emergency">Emergency: 911</span>
+                <button class="appointment-btn">Book Appointment</button>
+            </div>
+        </div>
+    </header>
+    <main>
+
+
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-slide">
+                    <img src="slide1.jpg" alt="Hospital Facility" />
+                    <div class="carousel-caption">
+                        <h2>State-of-the-art Facilities</h2>
+                        <p>Providing advanced healthcare solutions</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="slide2.jpg" alt="Medical Staff" />
+                    <div class="carousel-caption">
+                        <h2>Expert Medical Team</h2>
+                        <p>Dedicated to your well-being</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="slide3.jpg" alt="Emergency Care" />
+                    <div class="carousel-caption">
+                        <h2>24/7 Emergency Care</h2>
+                        <p>Always here when you need us</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="slide4.jpg" alt="Patient Care" />
+                    <div class="carousel-caption">
+                        <h2>Patient-Centered Care</h2>
+                        <p>Your health is our priority</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="slide5.jpg" alt="Modern Equipment" />
+                    <div class="carousel-caption">
+                        <h2>Modern Technology</h2>
+                        <p>Advanced medical equipment</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-btn prev">&lt;</button>
+            <button class="carousel-btn next">&gt;</button>
+            <div class="carousel-dots"></div>
+        </div>
+    </main>
+        <!-- Appointment Booking Form -->
+        <section id="appointments" class="appointment-section">
+            <h2>Book an Appointment</h2>
+            <form class="appointment-form">
+                <div class="form-group">
+                    <label for="patient-name">Full Name</label>
+                    <input type="text" id="patient-name" name="patient-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="patient-email">Email</label>
+                    <input type="email" id="patient-email" name="patient-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="patient-phone">Phone Number</label>
+                    <input type="tel" id="patient-phone" name="patient-phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="doctor">Select Doctor</label>
+                    <select id="doctor" name="doctor" required>
+                        <option value="">--Choose a Doctor--</option>
+                        <option value="dr-smith">Dr. Smith</option>
+                        <option value="dr-jones">Dr. Jones</option>
+                        <option value="dr-lee">Dr. Lee</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date">Preferred Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Preferred Time</label>
+                    <input type="time" id="time" name="time" required>
+                </div>
+                <button type="submit" class="submit-btn">Book Appointment</button>
+            </form>
+        </section>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Hospital Name</h3>
+                <p>Providing quality healthcare services since 1990</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">FB</a>
+                    <a href="#" aria-label="Twitter">TW</a>
+                    <a href="#" aria-label="LinkedIn">IN</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#departments">Departments</a></li>
+                    <li><a href="#careers">Careers</a></li>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p>123 Hospital Street</p>
+                <p>City, State 12345</p>
+                <p>Phone: (555) 123-4567</p>
+                <p>Email: info@hospitalname.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Hospital Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <!-- Footer remains the same -->
+    
+    <script src="carousel.js"></script>
+</body>
+</html>
